@@ -1,0 +1,24 @@
+.card {
+    background: #fff;
+    border-radius: 40px;
+    border: 10px solid #000;
+    width: min(100%, 300px);
+    height: min(100%, 300px);
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.icon {
+    font-size: 200px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.description {
+    text-transform: capitalize;
+    font-size: 50px;
+    display: block;
+}
