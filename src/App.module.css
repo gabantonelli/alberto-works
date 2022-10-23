@@ -7,10 +7,33 @@
     align-items: center;
     padding: 30px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.backdrop h1 {
-    font-size: 80px;
+.content {
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: 1fr;
+    max-width: 600px;
+}
+
+.content h1 {
     text-align: center;
     margin: 0 auto 30px;
+}
+
+.content p {
+    font-size: 22px;
+    text-align: center;
+}
+
+@media screen and (min-width:576px ) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:992px ) {
+    .backdrop h1 {
+        font-size: 80px;
+    }
 }

@@ -2,22 +2,28 @@
     background: #fff;
     border-radius: 40px;
     border: 10px solid #000;
-    width: min(70%, 300px);
+    width: min(100%, 300px);
+    margin: 0 auto;
     padding: 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content:center;
+    box-sizing: border-box;
 }
 
 .icon {
-    font-size: 200px;
+    font-size: 120px;
     margin-bottom: 30px;
     display: block;
 }
 
 .description {
     text-transform: capitalize;
-    font-size: 50px;
     display: block;
+}
+
+@media screen and (min-width: 992px) {
+    .description {font-size: 30px;}
+    .icon {font-size: 200px}
 }

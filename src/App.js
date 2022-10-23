@@ -54,7 +54,10 @@ const App = () => {
   return (
     <div className={classes.backdrop} style={{ background: theme.background }}>
       <h1 style={{color: theme.color}}>Alberto Works!</h1>
-      {activeItem && <Card image={activeItem} />}
+      <div className={classes.content}>
+          <p style={{color: theme.color}}>Press any key on the keyboard or click on the screen</p>
+          {activeItem && <Card image={activeItem} />}
+      </div>
     </div>
   );
 };
