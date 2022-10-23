@@ -1,5 +1,9 @@
 const itemsArray = [
     {
+      image: 'notification_important',
+      description: 'not available'
+    },
+    {
       key: 'a',
       image: 'anchor',
       description: 'anchor'
@@ -15,9 +19,24 @@ const itemsArray = [
       description: 'cart'
     },
     {
+      key: 'd',
+      image: 'casino',
+      description: 'dice'
+    },
+    {
+      key: 'e',
+      image: 'egg',
+      description: 'egg'
+    },
+    {
       key: 'f',
       image: 'wind_power',
       description: 'fan'
+    },
+    {
+      key: 'g',
+      image: 'gate',
+      description: 'gate'
     },
     {
       key: 'h',
@@ -46,8 +65,13 @@ const itemsArray = [
     },
     {
       key: 'p',
-      image: 'extension',
-      description: 'puzzle'
+      image: 'potted_plant',
+      description: 'plant'
+    },
+    {
+      key: 'r',
+      image: 'cruelty_free',
+      description: 'rabbit'
     },
     {
       key: 's',
@@ -60,9 +84,19 @@ const itemsArray = [
       description: 'tractor'
     },
     {
+      key: 'v',
+      image: 'sports_esports',
+      description: 'videogames'
+    },
+    {
       key: 'w',
       image: 'south_america',
       description: 'world'
+    },
+    {
+      key: 'x',
+      image: 'close',
+      description: 'X'
     },
     {
       key: 'ArrowUp',
