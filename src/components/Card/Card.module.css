@@ -2,8 +2,7 @@
     background: #fff;
     border-radius: 40px;
     border: 10px solid #000;
-    width: min(100%, 300px);
-    height: min(100%, 300px);
+    width: min(70%, 300px);
     padding: 30px;
     text-align: center;
     display: flex;
